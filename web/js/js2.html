@@ -48,7 +48,7 @@
 				for (var i in num) {
 					var li=document.createElement("li");
 					aqi_list.appendChild(li);
-					li.innerHTML = "第" + (i + 1) + "名：" + num[i][0] + "," + num[i][1];
+					li.innerHTML = "第" + (parseInt(i)+ 1) + "名：" + num[i][0] + "," + num[i][1];
 				}
 			}
 		})();
